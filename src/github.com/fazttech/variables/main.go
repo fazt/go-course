@@ -7,6 +7,22 @@ import (
 // declared variable outside a function
 var nickname string = "Fazt"
 
+// grouping variables
+var (
+	characterName string = "Sherlock Holmes"
+	proffession   string = "detective"
+	age           int    = 30
+	country              = "London"
+)
+
+// var theUrl string = "http://google.com"
+var theURL string = "http://google.com"
+var myHTTP string = ""
+
+var (
+	counter int = 0
+)
+
 func main() {
 	// declaring a variable
 	var i int
@@ -73,5 +89,11 @@ func main() {
 
 	// declare variable outside a function
 	fmt.Printf("%v %T\n", nickname, nickname)
+
+	// variables that are not used throw erro
+	// var j int 30 // this trows an error
+
+	// name convetions
+	// variables that you
 
 }
