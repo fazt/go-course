@@ -1,12 +1,12 @@
-package main
+package pointers
 
 import (
 	"fmt"
 )
 
-func main() {
-	a := 5
-	b := &a
+func Pointers() {
+	a := 5  // value
+	b := &a // pointer to a
 
 	fmt.Println(a, b)
 
@@ -18,5 +18,4 @@ func main() {
 	*b = 10
 
 	fmt.Println(a)
-
 }

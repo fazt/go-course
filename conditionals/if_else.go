@@ -1,8 +1,8 @@
-package main
+package ifelse
 
 import "fmt"
 
-func main() {
+func IfElse() {
 	x := 10
 	y := 10
 
@@ -13,7 +13,6 @@ func main() {
 	}
 
 	// else if
-
 	color := "orange"
 
 	if color == "red" {
@@ -25,18 +24,4 @@ func main() {
 	} else {
 		fmt.Println("I don't know this color")
 	}
-
-	// Switch
-
-	switch color {
-	case "red":
-		fmt.Println("color is red")
-	case "blue":
-		fmt.Println("color is blue")
-	case "yellow":
-		fmt.Println("color is yellow")
-	default:
-		fmt.Println("I don't know this color")
-	}
-
 }

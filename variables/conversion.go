@@ -1,11 +1,11 @@
-package main
+package variables
 
 import (
 	"fmt"
 	"strconv"
 )
 
-func main() {
+func otherVars() {
 	var i int = 42
 	fmt.Printf("%v %T\n", i, i)
 
