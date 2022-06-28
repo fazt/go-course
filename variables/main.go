@@ -6,6 +6,9 @@ import (
 
 func DeclareVariables() {
 	// declaring a variable
+	var myName string = "Fazt"
+	fmt.Println(myName)
+
 	var age int = 30
 	fmt.Println(age)
 
@@ -15,9 +18,6 @@ func DeclareVariables() {
 
 	var isCool bool = true
 	fmt.Println(isCool)
-
-	var myName string = "Fazt"
-	fmt.Println(myName)
 
 	// reassign a variable
 	var year int = 2022

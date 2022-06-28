@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/fazttech/go-course/pointers"
-	rangePackage "github.com/fazttech/go-course/range"
+	"github.com/fazttech/go-course/std"
 	// packagesTutorial "github.com/fazttech/go-course/packages"
 ) // go packages
 
 func main() {
 
+	std.UserInput()
 	// Hello world
 	// hello.PrintHello()
 
@@ -20,6 +20,6 @@ func main() {
 	// arraysSlices.Slices()
 
 	// maps.Maps()
-	rangePackage.RangeIntro()
-	pointers.Pointers()
+	// rangePackage.RangeIntro()
+	// pointers.Pointers()
 }
