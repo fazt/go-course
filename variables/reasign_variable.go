@@ -1,8 +1,8 @@
-package main
+package variables
 
 import "fmt"
 
-func main() {
+func reasignVariable() {
 	// reassign a variable
 	var year int = 2022
 	year = 2023

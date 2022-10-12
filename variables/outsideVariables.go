@@ -1,7 +1,7 @@
 package variables
 
 // declared variable outside a function
-var nickname string = "Fazt"
+var username string = "Fazt"
 
 // grouping variables
 var (

@@ -1,8 +1,6 @@
-package main
+package variables
 
-import "fmt"
-
-func main() {
+func Shorthand() {
 	// shorthands declaration varaibles for functions
 	// this cannot be declared outside function
 	// fullName := "Joe McMillan"

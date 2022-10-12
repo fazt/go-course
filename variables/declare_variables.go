@@ -1,16 +1,18 @@
-package main
+package variables
 
 import (
 	"fmt"
 )
 
 func DeclareVariables() {
-	// declaring a variable
+	// declare a variable
+	var message string
+	message = "My secret message"
+	fmt.Println(message)
+
+	// declaring and assigning a variable
 	var myName string = "Fazt"
 	fmt.Println(myName)
-
-	var age int = 30
-	fmt.Println(age)
 
 	// you can do this with any type
 	var price float32 = 30.5
@@ -19,16 +21,22 @@ func DeclareVariables() {
 	var isCool bool = true
 	fmt.Println(isCool)
 
+	var year int = 2022
+	fmt.Println(year)
+
 	// error if not use the variable
-	// var year = 2020
+	// var n = 2020
+	// var j int = 10
 
-	// declare variable outside a function
-	fmt.Printf("%v %T\n", nickname, nickname)
+	// multiple declarations
+	var name, lastname, age = "Joe", "Harper", 33
+	fmt.Println(name, lastname, age)
 
-	// variables that are not used throw erro
-	// var j int 30 // this trows an error
-
-	// name convetions
-	// variables that you
+	var (
+		username = "fazt"
+		email    = "fazt@mail.com"
+		password = "123456"
+	)
+	fmt.Println(username, email, password)
 
 }

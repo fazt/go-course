@@ -7,7 +7,7 @@ import (
 // variable in package level
 var i int = 30
 
-func main() {
+func shadowing() {
 	fmt.Println(i)
 	// var i int = 70
 	i := 70

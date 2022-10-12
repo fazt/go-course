@@ -5,15 +5,6 @@ import (
 )
 
 func main() {
-	i := 1
-
-	// long method
-	for i <= 10 {
-		fmt.Println(i)
-		// i = i + 1
-		i++
-	}
-
 	// short method
 
 	for i := 1; i <= 10; i++ {
