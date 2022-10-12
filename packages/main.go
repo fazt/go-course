@@ -1,4 +1,4 @@
-package packagesTutorial
+package main
 
 import (
 	"fmt"
@@ -6,6 +6,6 @@ import (
 	"github.com/fazttech/go-course/packages/greet"
 )
 
-func SomeMainPackage() {
+func main() {
 	fmt.Println(greet.Greet("Fazt"))
 }

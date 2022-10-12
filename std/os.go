@@ -1,12 +1,11 @@
-package main
+package std
 
 import (
 	"fmt"
 	"os"
 )
 
-
-func main() {
+func OsArguments() {
 
 	fmt.Println(os.Args)
 

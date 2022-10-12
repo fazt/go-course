@@ -1,15 +1,15 @@
-package main
+package datatypes
 
 import "fmt"
 
-func main() {
+func ShowTypes() {
 	// Literals
 	fmt.Println("Hello World") // string
 	fmt.Println(true) 				// boolean
 	fmt.Println(33) 					// integer
 	fmt.Println(100.44) 			// float
 
-	fmt.Println("\n")
+	fmt.Println()
 
 	// data types
 	fmt.Printf("%T\n", "Hello World")

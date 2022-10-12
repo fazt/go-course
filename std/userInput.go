@@ -1,8 +1,8 @@
-package main
+package std
 
 import "fmt"
 
-func main() {
+func userInput() {
 	var name string
 	fmt.Print("What is your name?: ")
 	fmt.Scan(&name)

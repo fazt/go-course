@@ -1,12 +1,8 @@
 package main
 
-import (
-	"github.com/fazttech/go-course/functions"
-	"github.com/fazttech/go-course/variables"
-)
+import "github.com/fazttech/go-course/conditionals"
 
 // go packages
 func main() {
-	functions.Alias()
-	variables.DeclareVariables()
+	conditionals.Switch()
 }

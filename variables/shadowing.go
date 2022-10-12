@@ -4,8 +4,6 @@ import (
 	"fmt"
 )
 
-// variable in package level
-var i int = 30
 
 func shadowing() {
 	fmt.Println(i)
