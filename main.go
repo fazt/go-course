@@ -1,8 +1,10 @@
 package main
 
-import "github.com/fazttech/go-course/conditionals"
+import (
+	"github.com/fazttech/go-course/lists"
+)
 
 // go packages
 func main() {
-	conditionals.Switch()
+	lists.Slices()
 }

@@ -1,8 +1,8 @@
-package main
+package loops
 
 import "fmt"
 
-func main() {
+func While() {
 	// for loop as while
 	i := 1
 
