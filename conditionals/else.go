@@ -1,4 +1,8 @@
+package conditionals
 
+import "fmt"
+
+func Else() {
 	x := 10
 	y := 10
 
@@ -7,3 +11,4 @@
 	} else {
 		fmt.Printf("%d is less than %d\n", y, x)
 	}
+}
