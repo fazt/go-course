@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/fazttech/go-course/pointers"
+	"github.com/fazttech/go-course/datatypes"
 )
 
 // go packages
 func main() {
-	pointers.Pointers()
+	datatypes.TypeConversion()
 }
