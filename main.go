@@ -1,10 +1,8 @@
 package main
 
-import (
-	"github.com/fazttech/go-course/datatypes"
-)
+import std "github.com/fazttech/go-course/std/os"
 
 // go packages
 func main() {
-	datatypes.TypeConversion()
+	std.ReadFiles()
 }
